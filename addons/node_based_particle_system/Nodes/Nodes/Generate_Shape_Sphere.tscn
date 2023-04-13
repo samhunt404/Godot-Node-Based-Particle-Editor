@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c4caq2x23bi87"]
 
-[ext_resource type="Script" path="res://Node Scripts/Spawn_Shape_Sphere.gd" id="1_efh7y"]
+[ext_resource type="Script" path="res://addons/node_based_particle_system/Nodes/Node Scripts/Spawn_Shape_Sphere.gd" id="1_n32pn"]
 
 [node name="GraphNode" type="GraphNode"]
 offset_right = 36.0
@@ -24,7 +24,7 @@ slot/1/right_type = 0
 slot/1/right_color = Color(1, 1, 1, 1)
 slot/1/right_icon = null
 slot/1/draw_stylebox = true
-script = ExtResource("1_efh7y")
+script = ExtResource("1_n32pn")
 rad = 1.0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
