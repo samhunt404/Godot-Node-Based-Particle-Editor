@@ -14,18 +14,10 @@ config/name="Node Based Particle System"
 config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[autoload]
-
-NodeClass="*res://addons/node_based_particle_system/Nodes/NodeClass.gd"
-
 [editor]
 
 version_control/plugin_name="GitPlugin"
 version_control/autoload_on_startup=true
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/node_based_particle_system/plugin.cfg")
 
 [rendering]
 
